@@ -1,13 +1,432 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 99%;
+  margin: 0 auto;
+  min-height: 90vh;
+  background-color: #bac6ca;
 }
+
+header {
+  height: 70px;
+
+  color: #ffffff;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #000000;
+  padding-top: 20px;
+  text-align: center;
+}
+nav{
+  height: 40px;
+  margin: 10px;
+}
+
+#menu1 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu1 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu1 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu2 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu2 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu2 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu3 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu3 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu3 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+
+#menu4 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu4 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu4 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu5 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu5 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu5 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu6 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu6 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu6 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu7 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu7 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu7 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu8 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu8 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu8 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+
+#menu9 ul{
+float: left;
+margin-top: 5px;
+}
+
+#menu9 li{
+display: inline;
+padding: 10px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer;
+}
+#menu9 li:hover{
+background-color: darkgoldenrod;
+color: darkmagenta;
+}
+#form {
+  width: 34%;
+ 
+}
+
+#container section {
+  width: 100%;
+  background-color: darkcyan;
+ 
+}
+
+#container section form{
+  margin-left: 14px;
+ 
+}
+
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+
+.colorRed{
+   background-color: #F50319;
+   width: 300px;
+}
+
+.color-verde{
+  background-color: #27EC08;
+  width: 300px;
+}
+#container section{
+min-height: 50vh;
+}
+#formulario{
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica;
+    margin: 1%;
+}
+
+#formulario label{
+    display: block;
+    width: 92%;
+    margin-top: 20px;
+    
+   
+}
+
+#container #p1 p{
+  margin: 20px;
+}
+#container #p1 form{
+  margin: 20px;
+}
+#container #p1 form label{
+  margin: 10px;
+}
+
+
+#container #p2 p{
+  margin: 20px;
+}
+#container #p2 form{
+  margin: 20px;
+}
+#container #p2 form label{
+  margin: 10px;
+}
+
+
+#container #p3 p{
+  margin: 20px;
+}
+#container #p3 form{
+  margin: 20px;
+}
+#container #p3 form label{
+  margin: 10px;
+}
+
+#container #p4 p{
+  margin: 20px;
+}
+#container #p4 form{
+  margin: 20px;
+}
+#container #p4 form label{
+  margin: 10px;
+}
+
+#container #p5 p{
+  margin: 20px;
+}
+#container #p5 form{
+  margin: 20px;
+}
+#container #p5 form label{
+  margin: 10px;
+}
+
+
+#container #p6 p{
+  margin: 20px;
+}
+#container #p6 form{
+  margin: 20px;
+}
+#container #p6 form label{
+  margin: 10px;
+}
+
+#container #p7 p{
+  margin: 20px;
+}
+#container #p7 form{
+  margin: 20px;
+}
+#container #p7 form label{
+  margin: 10px;
+}
+
+
+#container #p8 p{
+  margin: 20px;
+}
+#container #p8 form{
+  margin: 20px;
+}
+#container #p8form label{
+  margin: 10px;
+}
+
+#container #p9 p{
+  margin: 20px;
+}
+#container #p9 form{
+  margin: 20px;
+}
+#container #p9 form label{
+  margin: 10px;
+}
+#terminar{
+  background-color: #ffffff;
+  color: #000000;
+  display: none;
+
+}
+
+#informacion{
+  float:right;
+  height: 34px;
+  margin: 10px;
+  
+
+}
+
+#salir{
+  background-color:#F50319;
+  float: right;
+  height: 20px;
+  width: 80px;
+  margin: 10px;
+}
+
+#registro{
+  background-color: #8EFB02;
+  height: 20px;
+  width: 80px;
+  margin: 5px;
+  
+}
+
+#terminar{
+  background-color: #8EFB02;
+  height: 20px;
+  width: 80px;
+  margin: 5px;
+}
+#panel{
+  background-color: #8EFB02;
+  height: 20px;
+  width: 80px;
+  margin: 5px;
+  float: left;
+  padding: 6px;
+
+}
+#p{
+  text-align: justify;
+  margin-top: 40px;
+
+}
+#img{
+  margin: 39px;
+}
+
+footer{
+  clear: both;
+  
+  height: 70px;
+  text-align: center;
+  text-shadow: 5px 5px 5px #000000;
+ 
+}
+
+footer  p{
+ padding-top: 15px;
+
+}
+footer  h3{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 540px) {
+  #login{
+    margin-top: 60px;
+     width: 100%;
+   }
+  }
+
+  @media screen and (max-width: 600px) {
+    nav{
+      margin-top: 60px;
+     }
+    }
+
+    @media screen and (max-width: 580px) {
+      nav{
+        display: flex;
+        flex-direction: column;
+
+       }
+     nav #nota{
+       margin-top: -60px;
+       margin-left: 160px;
+       width: 200px;
+     }
+     nav #idpregunta{
+      margin-top: -60px;
+      margin-left: 160px;
+       width: 200px;
+    }
+      }
