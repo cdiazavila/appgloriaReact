@@ -199,13 +199,98 @@ color: darkmagenta;
  
 }
 
+.panelBoton{
+  margin-top: -320px;
+  margin-left: 850px;
+  width: 270px;
+  height: 310px;
+  background-color: #ffffff;
+ 
+}
+
+.pie{
+ 
+  margin-top: 30px;
+  width: 270px;
+}
+.pie button{
+ margin-left: 0px;
+ width: 70px;
+ width: 270px;
+ background-color: rgb(103, 5, 148) ;
+ color: seashell;
+}
+.encabezado{
+  background-color: aqua;
+  width: 270px;
+  height: 70px;
+
+}
+
+.encabezado h2{
+  text-align: center;
+}
+ button{
+  width: 40px;
+  height: 30px;
+  background-color: rgb(163, 165, 164);
+  margin-left: 10px;
+}
+.boton1{
+  width: 40px;
+  height: 50px;
+  margin-top: 10px;
+ 
+}
+.enc1{
+  width: 40px;
+  height: 20px;
+  background-color: red;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.boton2{
+  width: 20px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: -50px;
+ 
+}
+.enc2{
+  width: 40px;
+  height: 20px;
+  background-color: red;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.boton3{
+  width: 20px;
+  height: 50px;
+  margin-left: 200px;
+  margin-top: -50px;
+ 
+}
+.enc3{
+  width: 40px;
+  height: 20px;
+  background-color: red;
+  margin-left: 10px;
+  text-align: center;
+}
+
 .ocultar{
   display: none;
 }
 .mostrar{
   display: block;
 }
+.deshabilitar-Radio{
+  pointer-events:none;
+  opacity:0.5;
 
+}
 .colorRed{
    background-color: #F50319;
    width: 300px;
@@ -363,15 +448,7 @@ min-height: 50vh;
   width: 80px;
   margin: 5px;
 }
-#panel{
-  background-color: #8EFB02;
-  height: 20px;
-  width: 80px;
-  margin: 5px;
-  float: left;
-  padding: 6px;
 
-}
 #p{
   text-align: justify;
   margin-top: 40px;
@@ -412,7 +489,11 @@ footer  h3{
       margin-top: 60px;
      }
     }
-
+    @media screen and (max-width: 590px) {
+      #informacion{
+        margin-top: -5px;
+       }
+      }
     @media screen and (max-width: 580px) {
       nav{
         display: flex;
@@ -429,4 +510,31 @@ footer  h3{
       margin-left: 160px;
        width: 200px;
     }
+      }
+
+      @media screen and (max-width: 1125px) {
+        .panelBoton{
+          margin-left: 750px;
+        
+        }
+      }
+        
+      @media screen and (max-width: 1040px) {
+        .panelBoton{
+          margin-left: 550px;
+          margin-top: -220px;
+        }
+      }
+
+      @media screen and (max-width: 840px) {
+        .panelBoton{
+          margin-left: 250px;
+          margin-top: -220px;
+        }
+      }
+
+      @media screen and (max-width: 550px) {
+        .panelBoton{
+          margin:auto;
+        }
       }
